@@ -621,4 +621,7 @@ pre tt:after {
   html {
     font-size: 140%;
   }
+  main {
+    margin: 35px 0 0 35px;
+  }
 }

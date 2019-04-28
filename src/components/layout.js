@@ -21,7 +21,6 @@ const Layout = ({ children }) => (
       <>
         <div
           style={{
-            margin: `60px 0 0 0`,
             maxWidth: 960,
           }}
         >
