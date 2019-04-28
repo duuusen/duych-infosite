@@ -10,7 +10,7 @@ const IndexPage = () => (
     <h1>Duy Bui</h1>
     <p className={'shake-crazy iad'}>Interaction Designer</p>
     <br/>
-    <a className={'mailto'} href="mailto:hello@duy.ch">hello@duy.ch</a>
+    <a href="mailto:hello@duy.ch">hello@duy.ch</a>
     <ul class="links">
       <li><a href="https://blog.duy.ch"><Emoji symbol="✏️" label="pencil"/> interaction design blog</a></li>
     <li><a href="https://bdc.iad17.wtf"><Emoji symbol="🍏" label="apple"/> biodesign challenge</a></li>
