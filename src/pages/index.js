@@ -1,20 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Emoji from "../components/emoji"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO title="Home" keywords={[`Duy Bui`, `Interaction Design`]} />
+    <h1>Duy Bui</h1>
+    <p className={'shake-crazy iad'}>Interaction Designer</p>
+    <br/>
+    <a className={'mailto'} href="mailto:hello@duy.ch">hello@duy.ch</a>
+    <ul class="links">
+      <li><a href="https://blog.duy.ch"><Emoji symbol="✏️" label="pencil"/> interaction design blog</a></li>
+    <li><a href="https://bdc.iad17.wtf"><Emoji symbol="🍏" label="apple"/> biodesign challenge</a></li>
+    <li><a href="https://biologicalcomputinglab.com"><Emoji symbol="🧫" label="petri dish"/> biological computing lab</a></li>
+      <li><a href="https://playground.duy.ch"><Emoji symbol="🤪" label="zany face"/> playground</a></li>
+    </ul>
   </Layout>
 )
 
