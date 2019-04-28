@@ -32,6 +32,10 @@ const IndexPage = () => (
     </p>
     <br/>
     <a href="mailto:hello@duy.ch">hello@duy.ch</a>
+    <br/>
+    <a href="https://github.com/duuusen">github.com/duuusen</a>
+    <br/>
+    <a href="https://instagram.com/duuusen">instagram.com/duuusen</a>
     <ul class="links">
       <li><a href="https://blog.duy.ch"><Emoji symbol="✏️" label="pencil"/> interaction design blog</a></li>
     <li><a href="https://bdc.iad17.wtf"><Emoji symbol="🍏" label="apple"/> biodesign challenge</a></li>
