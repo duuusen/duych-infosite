@@ -31,7 +31,7 @@ const IndexPage = () => (
       <span className={'r2'}>r</span>
     </p>
     <br/>
-    <a href="mailto:hello@duy.ch">hello@duy.ch</a>
+    <a href="mailto:halloduy@gmail.com">halloduy@gmail.com</a>
     <br/>
     <a href="https://github.com/duuusen">github.com/duuusen</a>
     <br/>
